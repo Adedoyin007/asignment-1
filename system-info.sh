@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# System information diagnostic tool
+# Displays hostname, current user, kernel version, and system uptime.
+
 echo "===== SYSTEM INFORMATION ====="
 echo "Hostname: $(hostname)"
 echo "Current User: $(whoami)"
