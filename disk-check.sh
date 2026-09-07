@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# Disk usage diagnostic tool
+# Usage: ./disk-check.sh <threshold> [path]
+# Checks filesystem usage against the specified percentage threshold.
+
 # Get the threshold from the first argument
 THRESHOLD="$1"
 
