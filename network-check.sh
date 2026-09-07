@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# Network diagnostic tool
+# Usage: ./network-check.sh <hostname-or-ip> [port]
+# Checks DNS resolution, ICMP connectivity, network interfaces,
+# and optional TCP port connectivity.
+
 HOST="$1"
 PORT="$2"
 
